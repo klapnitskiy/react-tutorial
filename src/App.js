@@ -13,7 +13,8 @@ function App() {
       Counter
       <Counter initialCount={0} />
       CounterHooks
-      <CounterHooks initialCount={0} />
+      <CounterHooks initialCount={0} />'
+        button theme changing
         <button onClick={() => setTheme(prevTheme => {return prevTheme === 'red' ? 'blue' : 'red'}) }>Toggle Theme</button>
     </ThemeContext.Provider>
   )
